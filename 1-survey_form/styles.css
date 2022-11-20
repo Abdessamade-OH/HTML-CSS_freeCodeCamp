@@ -1,0 +1,67 @@
+h1{
+  text-align: center;
+  color:white;
+  font-family: sans-serif;
+}
+p[id="description"]{
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+body{
+  background-size: cover;
+  background-image: linear-gradient( 80deg, rgba(57, 57, 127, 0.8), rgba(66, 66, 132, 0.7) ),url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+}
+form{
+  width: 75%;
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 600px;
+  padding-bottom: 2rem;
+  background-color: rgba(49, 49, 115, 0.8);
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Oswald', sans-serif;
+}
+fieldset{
+  padding: 0.5rem 1.5rem;
+  border: none;
+}
+input{
+  display: block;
+  width: 100%;
+}
+input[type="radio"], input[type="checkbox"]{
+  width: auto;
+  margin: 0 0.4rem 0 0;
+  display: inline;
+}
+
+select{
+  display: block;
+  width: 100%;
+  margin-bottom: 1.3rem;
+}
+.title{
+  margin-bottom: 0.4rem;
+}
+label{
+  display: block;
+  margin: 0.7rem 0;
+}
+label[id="radio"], label[id="checkbox"]{
+  margin: 0.2rem 0 0 0;
+}
+textarea{
+  width: 100%;
+  min-height: 50px;
+  resize: vertical;
+  margin-bottom: 1.5rem;
+}
+input[type="submit"]{
+  font-size: 1rem;
+  color: white;
+  background-color: rgba(60,180,80,1);
+  border: none;
+  height: 2rem;
+}
